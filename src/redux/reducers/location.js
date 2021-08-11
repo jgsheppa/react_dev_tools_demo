@@ -11,7 +11,8 @@ const initialState = {
   routesMap: {
     HOME: '/',
     ADMIN: '/admin',
-    NOTFOUND: '/404',
+    NOTFOUND: '/NotFound',
+    NOTIFICATIONS: '/admin/notifications',
   },
 };
 

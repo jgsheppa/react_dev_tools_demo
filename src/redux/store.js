@@ -8,7 +8,8 @@ import page from './reducers/pageReducer';
 const routesMap = {
   HOME: '/',
   ADMIN: '/admin',
-  NOTFOUND: '/404',
+  NOTFOUND: '/NotFound',
+  NOTIFICATIONS: '/admin/notifications',
 };
 
 export default function configureStore(preloadedState) {

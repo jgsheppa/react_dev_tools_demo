@@ -2,8 +2,8 @@ import { NOT_FOUND } from 'redux-first-router';
 
 const components = {
   HOME: 'Home',
-  USER: 'User',
   ADMIN: 'Admin',
+  NOTIFICATIONS: 'Notifications',
   [NOT_FOUND]: 'NotFound',
 };
 
