@@ -1,15 +1,19 @@
 import { useSelector, useDispatch } from 'react-redux';
 import ErrorNotFound from '../404';
+// import fs from 'fs';
 
 export default function AdminPage() {
   const dispatch = useDispatch();
-  const location = useSelector((state) => state.location);
-  console.log('admin', location);
+  const state = useSelector((state) => state);
+  console.log('user role', state.userRole.admin);
 
   // If we enter this URL we will see a 404 page, but if we
   // navigate to the admin page with Redux, we will see the
   // contents of the admin page
-  return window.location.href === 'http://localhost:3000/admin' ? (
+  return window.location.href === 'http://localhost:3000/admin' &&
+    !state.userRole.admin ? (
+    <ErrorNotFound />
+  ) : (
     <div
       style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}
     >
@@ -34,7 +38,5 @@ export default function AdminPage() {
         <input name="multiple users"></input>
       </div>
     </div>
-  ) : (
-    <ErrorNotFound />
   );
 }
