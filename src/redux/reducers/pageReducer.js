@@ -7,5 +7,6 @@ const components = {
   [NOT_FOUND]: 'NotFound',
 };
 
-export default (state = 'HOME', action = {}) =>
-  components[action.type] || state;
+export default function page(state = 'HOME', action = {}) {
+  return components[action.type] || state;
+}
