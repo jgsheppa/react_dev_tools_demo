@@ -48,5 +48,7 @@ const middlewares =
       ? composeEnhancers(applyMiddleware(middleware))
       : composeWithDevTools(applyMiddleware(middleware));
 ```
-Setting any of the features to false will disable them in the production environment,
-based on the logic we've written for the `middlewares` variable.
+This code sets the features for Redux's dev tools. We have explicitly set `dispatch` to false, 
+meaning it will be disabled wherever we use the settings in `composeEnhancers`. Setting any of 
+the features to false will disable them in the production environment, based on the logic 
+we've written for the `middlewares` variable.

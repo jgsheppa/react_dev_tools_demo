@@ -4,8 +4,12 @@ import ErrorNotFound from '../404';
 export default function UserNotifications() {
   const state = useSelector((state) => state);
 
-  return window.location.href === 'http://localhost:3000/admin/notifications' &&
-    !state.userRole.admin ? (
+  const url =
+    process.env.NODE_ENV === 'production'
+      ? 'https://nifty-shaw-bc9b44.netlify.app/admin/notifications'
+      : 'http://localhost:3000/admin/notifications';
+
+  return window.location.href === url && !state.userRole.admin ? (
     <ErrorNotFound />
   ) : (
     <div

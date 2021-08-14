@@ -6,11 +6,14 @@ export default function AdminPage() {
   const dispatch = useDispatch();
   const state = useSelector((state) => state);
 
+  const url =
+    process.env.NODE_ENV === 'production'
+      ? 'https://nifty-shaw-bc9b44.netlify.app/admin'
+      : 'http://localhost:3000/admin';
   // If we enter this URL we will see a 404 page, but if we
   // navigate to the admin page with Redux, we will see the
   // contents of the admin page
-  return window.location.href === 'http://localhost:3000/admin' &&
-    !state.userRole.admin ? (
+  return window.location.href === url && !state.userRole.admin ? (
     <ErrorNotFound />
   ) : (
     <div
