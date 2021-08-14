@@ -7,7 +7,6 @@ import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
 
 const store = configureStore();
-console.log('STORE', store.store.getState);
 
 ReactDOM.render(
   <React.StrictMode>

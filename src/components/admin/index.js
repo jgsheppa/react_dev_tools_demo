@@ -5,7 +5,6 @@ import ErrorNotFound from '../404';
 export default function AdminPage() {
   const dispatch = useDispatch();
   const state = useSelector((state) => state);
-  console.log('user role', state.userRole.admin);
 
   // If we enter this URL we will see a 404 page, but if we
   // navigate to the admin page with Redux, we will see the

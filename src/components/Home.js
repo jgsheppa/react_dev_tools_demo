@@ -1,9 +1,8 @@
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 
 export default function HomePage() {
   const dispatch = useDispatch();
-  const state = useSelector((state) => state);
-  console.log('store', state.location.routesMap);
+
   return (
     <div
       style={{
