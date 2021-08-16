@@ -5,6 +5,7 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 
 import page from './reducers/pageReducer';
 import userRole from './reducers/user';
+import profile from './reducers/profile';
 
 const routesMap = {
   HOME: '/',
@@ -32,7 +33,12 @@ export default function configureStore(preloadedState) {
     },
   });
 
-  const rootReducer = combineReducers({ page, location: reducer, userRole });
+  const rootReducer = combineReducers({
+    page,
+    location: reducer,
+    userRole,
+    profile,
+  });
   const middlewares =
     process.env.NODE_ENV === 'production'
       ? composeEnhancers(applyMiddleware(middleware))

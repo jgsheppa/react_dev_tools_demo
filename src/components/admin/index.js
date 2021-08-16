@@ -17,7 +17,14 @@ export default function AdminPage() {
     <ErrorNotFound />
   ) : (
     <div
-      style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}
+      style={{
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        flexDirection: 'column',
+        height: '800px',
+        width: '100%',
+      }}
     >
       <h1>You're an admin!</h1>
       <div
@@ -28,16 +35,45 @@ export default function AdminPage() {
           maxWidth: '400px',
         }}
       >
-        <button onClick={() => dispatch({ type: 'NOTIFICATIONS' })}>
+        <button
+          style={{
+            marginBottom: '20px',
+          }}
+          onClick={() => dispatch({ type: 'NOTIFICATIONS' })}
+        >
           Notification Center
         </button>
         <br />
-        <label htmlFor="single user">Delete Single User</label>
-        <input name="single user"></input>
+        <label
+          style={{
+            marginBottom: '20px',
+          }}
+          htmlFor="single user"
+        >
+          Delete Single User
+        </label>
+        <input
+          style={{
+            marginBottom: '20px',
+          }}
+          name="single user"
+        ></input>
         <br />
 
-        <label htmlFor="multiple users">Delete Multiple Users</label>
-        <input name="multiple users"></input>
+        <label
+          style={{
+            marginBottom: '20px',
+          }}
+          htmlFor="multiple users"
+        >
+          Delete Multiple Users
+        </label>
+        <input
+          style={{
+            marginBottom: '20px',
+          }}
+          name="multiple users"
+        ></input>
       </div>
     </div>
   );
