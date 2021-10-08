@@ -1829,10 +1829,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@snyk/protect@latest":
-  version "1.715.0"
-  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.715.0.tgz#e4812dd4466cdd5784d62ccfb87f51e33a4db50d"
-  integrity sha512-pXPaE+Ae1rxrtAuDuo2+hyB/t1SYPQmpDtoVXjR8IjejVjcBieL8s5go18bcsIjcbwuFI+r8Tbsy4L+I3+Feyw==
+"@snyk/protect@1.716.0":
+  version "1.716.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.716.0.tgz#ea92a7a2eacf52aab5a274401a7abd9261707017"
+  integrity sha512-viNhoGwJQPwhqZjjzyScYHysGeLPk4k2HZgMjChR5W49z+GNd+9y3EOv4gJKsM6GbXAcRjlOptiBihfHpRFlaw==
 
 "@surma/rollup-plugin-off-main-thread@^1.1.1":
   version "1.4.2"

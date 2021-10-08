@@ -14,7 +14,7 @@
     "react-scripts": "4.0.3",
     "redux-devtools-extension": "^2.13.9",
     "redux-first-router": "^2.1.5",
-    "@snyk/protect": "latest"
+    "@snyk/protect": "1.716.0"
   },
   "scripts": {
     "start": "react-scripts start",
