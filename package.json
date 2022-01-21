@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@reduxjs/toolkit": "^1.5.1",
+    "@reduxjs/toolkit": "^1.6.2",
     "@testing-library/jest-dom": "^5.1.0",
     "@testing-library/react": "^10.0.0",
     "@testing-library/user-event": "^7.1.2",
@@ -14,7 +14,7 @@
     "react-scripts": "4.0.3",
     "redux-devtools-extension": "^2.13.9",
     "redux-first-router": "^2.1.5",
-    "@snyk/protect": "latest"
+    "@snyk/protect": "1.716.0"
   },
   "scripts": {
     "start": "react-scripts start",
