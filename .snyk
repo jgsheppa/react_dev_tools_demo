@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.21.5
+version: v1.22.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -5108,3 +5108,511 @@ patch:
         patched: '2021-08-18T09:40:09.633Z'
     - react-scripts > jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > jest-runtime > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
         patched: '2021-08-18T09:40:09.633Z'
+    - react-scripts > eslint-config-react-app > babel-preset-react-app > @babel/preset-env > @babel/preset-modules > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-runner > @jest/transform > @babel/core > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-runner > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-circus > jest-snapshot > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-circus > jest-snapshot > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-runner > @jest/transform > @babel/core > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-runner > @jest/transform > @babel/core > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > @jest/transform > @babel/core > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-snapshot > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-runner > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-resolve-dependencies > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-runner > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-runner > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-circus > jest-snapshot > @jest/transform > @babel/core > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-circus > jest-snapshot > @jest/transform > @babel/core > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-circus > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-circus > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-runner > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-runner > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-circus > jest-snapshot > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > eslint-config-react-app > babel-preset-react-app > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-circus > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-circus > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-runner > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-runner > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-runner > @jest/transform > @babel/core > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > eslint-config-react-app > babel-preset-react-app > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-runner > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-resolve-dependencies > jest-snapshot > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-snapshot > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-runner > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-runner > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-circus > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-circus > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-jasmine2 > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-jasmine2 > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-resolve-dependencies > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-circus > jest-runtime > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-circus > jest-runtime > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-runner > jest-runtime > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-runner > jest-runtime > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-runner > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-circus > jest-runtime > jest-snapshot > @jest/transform > @babel/core > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-circus > jest-runtime > jest-snapshot > @jest/transform > @babel/core > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-circus > jest-snapshot > @jest/transform > @babel/core > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-circus > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-runner > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-circus > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-runner > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-runner > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-resolve-dependencies > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-runner > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-runner > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-circus > jest-snapshot > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-circus > jest-snapshot > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-jasmine2 > jest-snapshot > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-jasmine2 > jest-snapshot > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-resolve-dependencies > jest-snapshot > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-circus > jest-runtime > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-circus > jest-runtime > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-runner > jest-runtime > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-runner > jest-runtime > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-runner > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > @jest/test-sequencer > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > @jest/test-sequencer > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-circus > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-circus > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-jasmine2 > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-jasmine2 > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-circus > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-circus > jest-runtime > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-runner > jest-runtime > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-circus > jest-runtime > jest-snapshot > @jest/transform > @babel/core > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-runner > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-resolve-dependencies > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-runner > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-runner > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-circus > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-circus > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-jasmine2 > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-jasmine2 > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-resolve-dependencies > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-circus > jest-runtime > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-circus > jest-runtime > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-runner > jest-runtime > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-runner > jest-runtime > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-runner > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > @jest/test-sequencer > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > @jest/test-sequencer > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-circus > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-circus > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-jasmine2 > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-jasmine2 > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-circus > jest-snapshot > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > jest-snapshot > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-circus > jest-runtime > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-runner > jest-runtime > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-circus > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-resolve-dependencies > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-runner > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-runner > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-circus > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-circus > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-jasmine2 > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-jasmine2 > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-resolve-dependencies > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-circus > jest-runtime > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-circus > jest-runtime > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-runner > jest-runtime > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-runner > jest-runtime > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-runner > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > @jest/test-sequencer > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > @jest/test-sequencer > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-circus > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-circus > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-jasmine2 > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-jasmine2 > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-circus > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-circus > jest-runtime > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-runner > jest-runtime > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-circus > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-runner > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-circus > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-circus > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-jasmine2 > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-jasmine2 > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-resolve-dependencies > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-circus > jest-runtime > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-circus > jest-runtime > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-runner > jest-runtime > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-runner > jest-runtime > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-runner > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > @jest/test-sequencer > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > @jest/test-sequencer > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-circus > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-circus > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-jasmine2 > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-jasmine2 > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-circus > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-circus > jest-runtime > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-runner > jest-runtime > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-circus > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-resolve-dependencies > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-runner > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-runner > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > @jest/test-sequencer > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > @jest/test-sequencer > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-circus > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-circus > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-jasmine2 > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-jasmine2 > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-circus > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-circus > jest-runtime > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-runner > jest-runtime > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-circus > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-circus > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-circus > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-jasmine2 > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-jasmine2 > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-resolve-dependencies > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-circus > jest-runtime > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-circus > jest-runtime > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-runner > jest-runtime > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-runner > jest-runtime > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-runner > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-circus > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > @jest/test-sequencer > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > @jest/test-sequencer > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-circus > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-circus > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-jasmine2 > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-jasmine2 > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > @jest/core > jest-config > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-circus > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-circus > jest-runtime > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-runner > jest-runtime > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-circus > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-runner > jest-runtime > jest-snapshot > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-01-21T21:12:07.006Z'
